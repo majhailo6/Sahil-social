@@ -150,12 +150,16 @@ h1 {
 .instagram .icon {
   background: linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
 }
-/* TELEGRAM */
 .telegram {
     border: 2px solid #229ED9;
-    box-shadow: 0 0 20px rgba(34,158,217,.2);
+    box-shadow: 0 0 20px rgba(34,158,217,.35);
+    transition: all .3s ease;
 }
 
+.telegram:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(34,158,217,.7);
+}
 .telegram .icon {
     background: #229ED9;
     color: #fff;
